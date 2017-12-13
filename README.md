@@ -6,6 +6,7 @@ This is a simplified-implemented Open Judge written by python.
 docker pull centos
 mkdir env
 virtualenv env --python python3
+. env/bin/activate
 pip install flask
 python application.py
 ```
