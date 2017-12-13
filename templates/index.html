@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="This is a simplified-implemented Open Judge written by python." />
+<meta name="keywords" content="Open Judge,C/C++,ACM" />
+<meta name="author" content="Ming" />
+<title>Easy Open Judge</title>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body data-ng-controller="controller">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <h2 class="text-center">Easy Open Judge</h2>
+      <hr />
+    </div>
+    <div class="col-md-12 col-xs-12">
+      <h3 class="text-center">A+B Problem</h3>
+      <p class="text-center"><small>Time Limit: 1000MS Memory Limit: 65536KB</small></p>
+      <h4>Problem Description</h4>
+      <p>Calculate a+b.</p>
+      <h4>Input</h4>
+      <p>Two integer a,b (0&lt;=a,b&lt;=10).</p>
+      <h4>Output</h4>
+      <p>Output a+b.</p>
+      <h4>Example Input</h4>
+      <p>1 2</p>
+      <h4>Example Output</h4>
+      <p>3</p>
+    </div>
+    <div class="col-md-12 col-xs-12">
+      <form>
+        <div class="form-group">
+          <textarea class="form-control code-editor" data-ng-model="code" data-ng-disabled="lock"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-success" data-ng-click="submitCode()" data-ng-disabled="lock">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdn.bootcss.com/angular.js/1.6.7/angular.min.js"></script>
+<script src="/static/js/index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.code-editor {
+  min-height: 300px;
+  resize: vertical;
+}
