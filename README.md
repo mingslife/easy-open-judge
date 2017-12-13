@@ -3,6 +3,7 @@ This is a simplified-implemented Open Judge written by python.
 
 ## Install
 ```
+docker pull centos
 mkdir env
 virtualenv env --python python3
 pip install flask
